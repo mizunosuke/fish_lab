@@ -1,0 +1,173 @@
+body {
+    background-image: url("../images/back_sea.png");
+    background-size: contain;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.container h1 {
+    font-size: 90px;
+    font-family: "Kokoro";
+    font-weight: bold;
+    text-align:center;
+}
+
+.lists {
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list {
+  width: 31%;
+  border-top: 5px solid #00008b;
+  margin: 20px 0;
+  border-bottom: 8px solid #00008b;
+  border-right: 8px solid #00008b;
+  border-left: 4px solid #00008b;
+  box-shadow: 18px 14px 16px #00008b;
+  border-radius: 15px;;
+  background-color: white;
+}
+
+.list h3 {
+  font-size: 48px;
+  font-family: "Kokoro";
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p {
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content li {
+    list-style: none;
+    font-size: 32px;
+    font-weight: bold;
+    text-align:center;
+    width: 50%;
+}
+
+.content h3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align:center;
+    margin: 0;
+}
+
+.tohome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0 0;
+}
+
+.deletebtn {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* 背景用*/
+body {
+  padding: 30px;
+}
+
+a {
+    display: block;
+    width:60%;
+    text-align: center;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn_border_shadow__radius {
+  border-radius: 100vh;
+}
+a.btn_border_shadow {
+  padding: calc(1.5rem - 12px) 3rem 1.5rem;
+
+  background: #fff;
+}
+
+a.btn_border_shadow:before {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+
+  width: 100%;
+  height: 100%;
+
+  content: "";
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+  border: 3px solid #000;
+  border-radius: 0.5rem;
+}
+
+a.btn_border_shadow__radius:before {
+  border-radius: 100vh;
+}
+
+a.btn_border_shadow:hover {
+  padding: calc(1.5rem - 6px) 3rem;
+}
+
+a.btn_border_shadow:hover:before {
+  top: 0;
+  left: 0;
+}
